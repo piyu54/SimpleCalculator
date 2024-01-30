@@ -34,7 +34,7 @@ public class Demo
 		System.out.println("Division of Two Number is " +res);
 		break;
 		default :
-			System.out.println("Your Choice is Invaild Please Enter Right Choise");
+			System.out.println("Your Choice is Invaild Please Enter Right Choice");
 		}
 		
 	}
