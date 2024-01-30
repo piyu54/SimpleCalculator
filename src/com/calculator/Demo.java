@@ -9,6 +9,7 @@ public class Demo
 		
 		Scanner s = new Scanner(System.in);
 		
+		System.out.println("Calculator");
 		System.out.println(" \n 1.Addition \n 2.Substration \n 3.Multiplication \n 4.Division ");
 		System.out.println("ENTER YOUR CHOICE" );
 		String sys = s.next();
