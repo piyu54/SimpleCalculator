@@ -6,7 +6,9 @@ public class Demo
 {
 
 	public static void main(String[] args) {
-		
+		String yn;
+		do
+		{
 		Scanner s = new Scanner(System.in);
 		
 		System.out.println("Calculator");
@@ -17,7 +19,7 @@ public class Demo
 		int no1 = s.nextInt();
 		System.out.println("ENTER THE SECOND NUMBER");
 		int no2 = s.nextInt();
-		int res;
+		double res;
 		
 		switch (sys) 
 		{
@@ -36,6 +38,10 @@ public class Demo
 		default :
 			System.out.println("Your Choice is Invaild Please Enter Right Choice");
 		}
+		System.out.println("\nDo you want to continue(Press y for Yes and n for No)");
+		yn=s.next();
+	}
+	while (yn.equals("y")||yn.equals("Y"));
 		
 	}
 }
